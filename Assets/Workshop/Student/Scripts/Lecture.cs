@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 namespace Assignment
@@ -10,7 +11,7 @@ namespace Assignment
 
         void Start()
         {
-            // LCT01_SyntaxArray();
+             LCT01_SyntaxArray();
             // LCT02_ArrayInitialize();
             // LCT03_SyntaxLoop();
             // LCT04_LoopAndArray();
@@ -23,12 +24,36 @@ namespace Assignment
 
         public void LCT01_SyntaxArray()
         {
-            throw new System.NotImplementedException();
+            //string name1 ="";
+            //string name1 ="";
+            //string name1 ="";
+            //string name1 ="";
+            //string name1 ="";
+
+            string[] ironManSuit = new string[200000];
+            ironManSuit[0] = "Mark I";
+            ironManSuit[1]= "Mark II";
+
+            string tonyStarkWear = ironManSuit[1];
+            Debug.Log($"TonyStark wear {tonyStarkWear}");
+            Debug.Log($"Size {ironManSuit.Length}");
         }
 
         public void LCT02_ArrayInitialize()
         {
-            throw new System.NotImplementedException();
+            string[] spidermanSuits = new string[] {
+                "Classic",
+                "Black suit",
+                "Iron spider"
+            };
+
+            string[] batmanSuits = new string[2] {
+                "Classic",
+                "White bat"
+            };
+
+            Debug.Log(batmanSuits[0]);
+            Debug.Log(batmanSuits[1]);
         }
 
         /*
@@ -79,7 +104,11 @@ namespace Assignment
         public string[] lct04_ironManSuitNames;
         public void LCT04_LoopAndArray()
         {
-            throw new System.NotImplementedException();
+            for (int i = 0; i<lct04_ironManSuitNames.Length; i++)
+            {
+                Debug.Log(lct04_ironManSuitNames[i] );
+            }
+
         }
 
         /*
@@ -114,7 +143,23 @@ namespace Assignment
          */
         public void LCT05_Syntax2DArray()
         {
-            throw new System.NotImplementedException();
+            int[,] my2DArray = new int[3, 4]
+            {
+                 { 1, 2, 3, 0 },
+                 { 4, 5, 6, 0 },
+                 { 7, 8, 9, 0 },
+            };
+            Debug.Log(my2DArray.GetLength(0));
+            Debug.Log(my2DArray.GetLength(1)) ;
+
+            Debug.Log(my2DArray[2, 2]);
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col = 0; col < 4; col++)
+                {
+                    Debug.Log(my2DArray[row, col]);
+                }
+            }
         }
 
         /*
