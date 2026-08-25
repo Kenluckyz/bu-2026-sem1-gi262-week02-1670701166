@@ -364,6 +364,8 @@ MonoBehaviour:
   foodTiles:
   - {fileID: 620319011660098408, guid: 9c5e6105aa1a9f84788696dfeae00aa7, type: 3}
   - {fileID: 2610949509690204069, guid: 53526382c73312c4bbdf665ed3ee56e2, type: 3}
+  Players: []
+  Exit: {fileID: 398333608}
 --- !u!1 &401495253
 GameObject:
   m_ObjectHideFlags: 0
