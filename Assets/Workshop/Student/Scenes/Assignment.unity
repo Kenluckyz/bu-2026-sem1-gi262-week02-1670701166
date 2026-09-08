@@ -178,9 +178,9 @@ MonoBehaviour:
   as03_wall: {fileID: 5291166318002269242, guid: 413c1aa8e8dffdd448102fbcf99aaf6d, type: 3}
   as03_columns: 5
   as03_rows: 5
-  as04_enemyHP: 0a000000140000001e000000
-  as04_damage: 5
-  as04_target: 2
+  as04_enemyHP: 0a0000000f00000014000000190000001e000000
+  as04_damage: 2
+  as04_target: 3
   as05_n: 3
   as06_ironManSuitNames:
   - Mark I
@@ -190,14 +190,14 @@ MonoBehaviour:
   - Mark V
   - Mark VI
   - Mark VII
-  as07_heroHPs: 0a000000140000001e000000
+  as07_heroHPs: 0a0000000f00000014000000190000001e000000
   as07_heal: 5
-  as07_targetIndex: 1
+  as07_targetIndex: 3
   as08_dialogues:
-  - "\u0E04\u0E38\u0E13\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23\u0E1A\u0E49\u0E32\u0E07\u0E04\u0E23\u0E31\u0E1A"
-  - "\u0E41\u0E25\u0E49\u0E27\u0E40\u0E08\u0E2D\u0E01\u0E31\u0E19\u0E43\u0E2B\u0E21\u0E48"
-  - "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35"
-  as09_n: 2
+  - keerati
+  - ken
+  - loveteacher
+  as09_n: 5
   as10_n: 15
   as11_enemyHPs: 0f0000001400000019000000
   as11_enemyPrefab: {fileID: 8402306337599026408, guid: 750804a3353a1434ab71f408a13e1b58, type: 3}
@@ -226,9 +226,9 @@ MonoBehaviour:
     - 
     - ' '
     - ' '
-  ex01_playerTurn: 1
-  ex01_row: 0
-  ex01_column: 2
+  ex01_playerTurn: O
+  ex01_row: 2
+  ex01_column: 0
 --- !u!1 &652921969
 GameObject:
   m_ObjectHideFlags: 0
